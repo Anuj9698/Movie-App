@@ -2,9 +2,9 @@ import * as React from 'react';
 import { Text, View, StyleSheet, Button, Image,Alert ,TouchableOpacity} from 'react-native';
 import {createStackNavigator} from 'react-navigation-stack';
 import {createAppContainer} from 'react-navigation';
-import HomeScreen from './moviesdb/screen/HomeScreen';
-import SecondScreen from './moviesdb/screen/SecondScreen';
-import SearchScreen from './moviesdb/screen/SearchScreen';
+import HomeScreen from './screen/HomeScreen';
+import SecondScreen from './screen/SecondScreen';
+import SearchScreen from './screen/SearchScreen';
 
 const App1 = createStackNavigator({
   Home: {screen: HomeScreen},
